@@ -9,16 +9,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style000-1.css">
-    <link rel="stylesheet" type="text/css" href="css/moskitki.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://api-maps.yandex.ru/2.1/?apikey=c31d9a3b-860a-41f0-b8fb-708a953e14c3&lang=ru_RU" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="libs/wow_js/index.min.css">
 
 </head>
 <body>
 
 <!-- Header -->
-<header id="bottom_header" class="bg-header">
+<header class="bg-header">
     <div class="container">
         <div class="row bg-header-flex">
             <div class="col-md-6">
@@ -39,14 +38,14 @@
 </header>
 <section>
     <div class="fire-bg">
-        <h3 class="wow rubberBand">МЫ ПОКОРЯЕМ ЖАРУ!</h3>
+        <h2 class="wow rubberBand">МЫ ПОКОРЯЕМ ЖАРУ!</h2>
     </div>
 </section>
 <!--Заправка кондиционера-->
 <section class="bg-slider">
     <div class="container">
         <div class="row wow bounceInUp">
-            <div class="col-md-12 h1-custom">
+            <div class="col-md-12">
                 <h1 class="bg-slider-title text-center fonts_def_1">Заправка кондиционера</h1>
             </div>
             <div class="col-lg-8">
@@ -55,7 +54,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-12 col-lg-4 bg-slider-title-block">
-                <div class="about_product">
+                <div class="">
                     <h5 class="about_product_title fonts_def_1">Преимущества:</h5>
                     <ul class="about_product_sub_title">
                         <li class="fonts_def_1">больше не страшно ехать в жару</li>
@@ -69,11 +68,11 @@
     </div>
 </section>
 <!--Какие услуги мы предоставляем?-->
-<section class="bg-merculas" id="howGridTake">
+<section class="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="box6-title">
+                <h3 class="box6-title fonts_def_1">
                     <span>Какие услуги мы предоставляем?</span>
                 </h3>
             </div>
@@ -88,7 +87,7 @@
                 </div>
                 <div class="text-center mr_bottom">
                     <a href="tel:+375255259000">
-                        <input type="button" class="btn btn-primarys btn_csu" value="Позвонить">
+                        <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
                     </a>
                 </div>
             </div>
@@ -104,7 +103,7 @@
                 </div>
                 <div class="text-center mr_bottom">
                     <a href="tel:+375255259000">
-                        <input type="button" class="btn btn-primarys btn_csu" value="Позвонить">
+                        <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
                     </a>
                 </div>
             </div>
@@ -119,7 +118,7 @@
                 </div>
                 <div class="text-center mr_bottom">
                     <a href="tel:+375255259000">
-                        <input type="button" class="btn btn-primarys btn_csu" value="Позвонить">
+                        <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
                     </a>
                 </div>
             </div>
@@ -129,7 +128,7 @@
 </section>
 
 <!--КАК МЫ РАБОТАЕМ?-->
-<section class="bg-workP" id="howWeWork">
+<section class="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -154,7 +153,7 @@
 </section>
 
 <!--КЛИЕНТЫ О НАС-->
-<section class="bg-ots" id="reviews">
+<section class="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -166,9 +165,9 @@
                 <div class="container-car-img">
                     <img class="image-feedback" src="image/car3.png" alt="авто">
                 </div>
-                <div class="box8-author text-center">Александр Вагулис</div>
+                <div class="box8-author fonts_def_1 text-center">Александр Вагулис</div>
                 <div class="box8-work text-center">Renault laguna 2</div>
-                <p class="box_li">Приехал на заправку кондиционера на Renault Laguna 2.
+                <p class="box_li fonts_def_1">Приехал на заправку кондиционера на Renault Laguna 2.
                     Но в процессе заправки обнаружилась проблема, на месте нашли проблему( был забит осушитель)на следующий день поменяли осушитель и клапан распылитель. Заправили кондиционер (все холодит) . Сделали скидку на заправку.
                     Плюсом является низкая стоимость, качество, клиентооринтированность и советы по эксплуатации кондиционера.
                 </p>
@@ -178,9 +177,9 @@
                 <div class="container-car-img">
                     <img class="image-feedback" src="image/car3.png" alt="авто">
                 </div>
-                <div class="box8-author text-center">Александр Вагулис</div>
+                <div class="box8-author fonts_def_1 text-center">Александр Вагулис</div>
                 <div class="box8-work text-center">Renault laguna 2</div>
-                <p class="box_li">Приехал на заправку кондиционера на Renault Laguna 2.
+                <p class="box_li fonts_def_1">Приехал на заправку кондиционера на Renault Laguna 2.
                     Но в процессе заправки обнаружилась проблема, на месте нашли проблему( был забит осушитель)на следующий день поменяли осушитель и клапан распылитель. Заправили кондиционер (все холодит) . Сделали скидку на заправку.
                     Плюсом является низкая стоимость, качество, клиентооринтированность и советы по эксплуатации кондиционера.
                 </p>
@@ -190,9 +189,9 @@
                 <div class="container-car-img">
                     <img class="image-feedback" src="image/car3.png" alt="авто">
                 </div>
-                <div class="box8-author text-center">Александр Вагулис</div>
+                <div class="box8-author fonts_def_1 text-center">Александр Вагулис</div>
                 <div class="box8-work text-center">Renault laguna 2</div>
-                <p class="box_li">Приехал на заправку кондиционера на Renault Laguna 2.
+                <p class="box_li fonts_def_1">Приехал на заправку кондиционера на Renault Laguna 2.
                     Но в процессе заправки обнаружилась проблема, на месте нашли проблему( был забит осушитель)на следующий день поменяли осушитель и клапан распылитель. Заправили кондиционер (все холодит) . Сделали скидку на заправку.
                     Плюсом является низкая стоимость, качество, клиентооринтированность и советы по эксплуатации кондиционера.
                 </p>
@@ -201,7 +200,7 @@
 </section>
 
 <!--Как к нам доехать-->
-<section class="bg-plasti_window" id="shameSefeOrder">
+<section class="bg-plasti_window">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -217,7 +216,7 @@
 </section>
 
 <!--footer-->
-<footer class='bg-footer'>
+<footer class="bg-footer">
     <div class='container'>
         <div class='row'>
             <div class="col-md-6">
@@ -266,7 +265,7 @@
     }
 </script>
 <!--<script src="//code-ya.jivosite.com/widget/SMk03YbNoX" async></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="libs/wow_js/index.min.js"></script>
 <script>
     new WOW().init();
 </script>
