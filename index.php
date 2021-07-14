@@ -21,11 +21,14 @@
     <div class="container">
         <div class="row bg-header-flex">
             <div class="col-md-6">
-                <h4 class="text-center ask_title fonts_def_1 font_size_25 hidden-xs hidden-sm">Надоела жара в машине?
-                    Звони!</h4>
+                <h4 class="text-center ask_title fonts_def_1 font_size_25 hidden-xs hidden-sm">
+                    <img width="150" src="image/logo-holodok.png" alt="">
+                </h4>
             </div>
             <div class="col-sm-6 col-xs-6">
-                <h4 class="text-left ask_title fonts_def_1 font_size_25 d-block d-none">xolod.by</h4>
+                <h4 class="text-left ask_title fonts_def_1 font_size_25 d-block d-none">
+                    <img width="100" src="image/logo-holodok.png" alt="">
+                </h4>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                 <span class="phone">
@@ -38,7 +41,7 @@
 </header>
 <section>
     <div class="fire-bg">
-        <h2 class="wow rubberBand">МЫ ПОКОРЯЕМ ЖАРУ!</h2>
+        <h2 class="wow rubberBand2"><span>МЫ ПОКОРЯЕМ</span> ЖАРУ!</h2>
     </div>
 </section>
 <!--Заправка кондиционера-->
@@ -76,53 +79,51 @@
                     <span>Какие услуги мы предоставляем?</span>
                 </h3>
             </div>
-            <div class="col-md-4 wow bounceInLeft">
-                <h4 class="text-center box_title fonts_def_1">Заправка кондиционера<br></h4>
-                <p class="text-center box_descr">Мы приехжаем к вам или вы приезжаете к нам.</p>
-                <div class="text-center">
-                    <img class="img_width_240px" src="image/zapravka.png">
+                <div class="col-md-4 wow bounceInLeft">
+                    <h4 class="text-center box_title fonts_def_1">Заправка кондиционера<br></h4>
+                    <p class="text-center box_descr">Мы приехжаем к вам или вы приезжаете к нам.</p>
+                    <div class="text-center">
+                        <img class="img_width_240px" src="image/zapravka.png">
+                    </div>
+                    <div class="price_order text-center color_rer fonts_def_1">
+                        27 руб
+                    </div>
+                    <div class="text-center mr_bottom">
+                        <a href="tel:+375255259000">
+                            <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
+                        </a>
+                    </div>
                 </div>
-                <div class="price_order text-center color_rer fonts_def_1">
-                    27 руб
+                <div class="col-md-4 wow bounceInUp">
+                    <h4 class="text-center box_title fonts_def_1">Поиск неисправности<br></h4>
+                    <p class="text-center box_descr">Только если это не связано с электрикой</p>
+                    <div class="text-center">
+                        <img class="img_width_240px" src="image/search.jpg">
+                    </div>
+                    <div class="price_order text-center color_rer fonts_def_1">
+                        10 руб
+                    </div>
+                    <div class="text-center mr_bottom">
+                        <a href="tel:+375255259000">
+                            <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
+                        </a>
+                    </div>
                 </div>
-                <div class="text-center mr_bottom">
-                    <a href="tel:+375255259000">
-                        <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
-                    </a>
+                <div class="col-md-4 wow bounceInRight">
+                    <h4 class="text-center box_title fonts_def_1">Поиск неисправности<br></h4>
+                    <p class="text-center box_descr">Только если это не связано с электрикой</p>
+                    <div class="text-center">
+                        <img class="img_width_240px" src="image/search.jpg">
+                    </div>
+                    <div class="price_order text-center color_rer fonts_def_1">
+                        10 руб
+                    </div>
+                    <div class="text-center mr_bottom">
+                        <a href="tel:+375255259000">
+                            <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-md-4 wow bounceInUp">
-                <h4 class="text-center box_title fonts_def_1">Поиск неисправности<br></h4>
-                <p class="text-center box_descr">Только если это не связано с электрикой</p>
-                <div class="text-center">
-                    <img class="img_width_240px" src="image/search.jpg">
-                </div>
-                <div class="price_order text-center color_rer fonts_def_1">
-                    10 руб
-                </div>
-                <div class="text-center mr_bottom">
-                    <a href="tel:+375255259000">
-                        <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 wow bounceInRight">
-                <h4 class="text-center box_title fonts_def_1">Поиск неисправности<br></h4>
-                <p class="text-center box_descr">Только если это не связано с электрикой</p>
-                <div class="text-center">
-                    <img class="img_width_240px" src="image/search.jpg">
-                </div>
-                <div class="price_order text-center color_rer fonts_def_1">
-                    10 руб
-                </div>
-                <div class="text-center mr_bottom">
-                    <a href="tel:+375255259000">
-                        <input type="button" class="btn fonts_def_1 btn-primarys btn_csu" value="Позвонить">
-                    </a>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
@@ -161,7 +162,7 @@
                     <span>КЛИЕНТЫ О НАС</span>
                 </h3>
             </div>
-            <div data-wow-delay="0.2s" class="col-md-4 wow bounceInRight">
+            <div data-wow-delay="0.2s" class="col-md-4 wow bounceInRight about_auto">
                 <div class="container-car-img">
                     <img class="image-feedback" src="image/car3.png" alt="авто">
                 </div>
@@ -173,7 +174,7 @@
                 </p>
             </div>
 
-            <div data-wow-delay="0.2s" class="col-md-4 wow bounceInUp">
+            <div data-wow-delay="0.2s" class="col-md-4 wow bounceInUp about_auto">
                 <div class="container-car-img">
                     <img class="image-feedback" src="image/car3.png" alt="авто">
                 </div>
@@ -185,7 +186,7 @@
                 </p>
             </div>
 
-            <div data-wow-delay="0.2s" class="col-md-4 wow bounceInLeft">
+            <div data-wow-delay="0.2s" class="col-md-4 wow bounceInLeft about_auto">
                 <div class="container-car-img">
                     <img class="image-feedback" src="image/car3.png" alt="авто">
                 </div>
@@ -218,19 +219,24 @@
 <!--footer-->
 <footer class="bg-footer">
     <div class='container'>
-        <div class='row'>
-            <div class="col-md-6">
-                <strong>Тел.:</strong>+375 25 525 9000 &emsp; <strong>E-mail: </strong><a
-                        href="mailto:bymaximus17@gmail.com" title="e-mail">example17@gmail.com</a>
-                </br>"ИП Бондарчик В.И."<br></br><strong>&copy;</strong> 2020-2021
-            </div>
-            <div class="col-md-6 text-right">
-                <div>График работы: </div>
-                <div>пн-пт: 10.00-22.00</вшм>
-                <div>сб: 11.00-21.00</вшм>
-                <div>вс: выходной</вшм>
-            </div>
+        <div class='row footer-text'>
+              <div class="col-md-6 footer-right">
+                  <ul class="footer-list">
+                      <li><strong>Телефон: </strong><a href="mailto:bymaximus17@gmail.com" title="Телефон">+375 25 525 9000</a></li>
+                      <li><strong>E-mail: </strong> <a href="mailto:bymaximus17@gmail.com" title="e-mail">example17@gmail.com</a></li>
+                      <li>"ИП Бондарчик В.И."</li>
+                  </ul>
+              </div>
+              <div class="col-md-6 footer-left">
+                  <ul>
+                    <li>График работы: </li>
+                    <li>пн-пт: 10.00-22.00</li>
+                    <li>сб: 11.00-21.00</li>
+                    <li>вс: выходной</li>
+                  </ul>
+              </div>
         </div>
+        <strong class="footer-copy">&copy;2020-2021</strong>
     </div>
 </footer>
 <script type="text/javascript">
@@ -264,7 +270,7 @@
 
     }
 </script>
-<!--<script src="//code-ya.jivosite.com/widget/SMk03YbNoX" async></script>-->
+<script src="//code-ya.jivosite.com/widget/SMk03YbNoX" async></script>
 <script src="libs/wow_js/index.min.js"></script>
 <script>
     new WOW().init();

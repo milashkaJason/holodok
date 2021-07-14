@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'pf_din_text_cond_proregular';
-    src: url('/fonts/pfdintextcondpro-regular-webfont.eot');
-    src: url('/fonts/pfdintextcondpro-regular-webfont.eot?') format('embedded-opentype'),
-    url('/fonts/pfdintextcondpro-regular-webfont.woff') format('woff'),
-    url('/fonts/pfdintextcondpro-regular-webfont.ttf') format('truetype');
+    font-family: 'MyRiadPro';
+    src: url('/fonts/MyriadProRegular/MyriadProRegular.eot?');
+    src: url('/fonts/MyriadProRegular/MyriadProRegular.eot?') format('embedded-opentype'),
+    url('/fonts/MyriadProRegular/MyriadProRegular.woff') format('woff'),
+    url('/fonts/MyriadProRegular/MyriadProRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,7 +12,7 @@ html, body {
     width: 100%;
     height: 100%;
     background: #fff;
-    font-family: 'pf_din_text_cond_proregular', sans-serif;
+    font-family: 'MyRiadPro', sans-serif;
     color: #000;
     font-size: 14px;
 }
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fonts_def_1 {
-    font-family: 'pf_din_text_cond_proregular', sans-serif;
+    font-family: 'MyRiadPro', sans-serif;
 }
 
 .font_size_25 {
@@ -83,20 +83,25 @@ section {
 }
 
 .fire-bg {
+}
+
+.rubberBand2 {
     width: 100%;
-    height: 100vh;
+    height: 1100px;
     background: url("/image/fire.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.fire-bg h3 {
+.fire-bg h2 {
     font-size: 60px;
-    color: #fff;
+    color: #ff6600;
     text-align: center;
-    padding-top: 160px;
-    margin-top: 0;
+    padding-top: 125px;
+}
+.fire-bg h2 span {
+    color: #0076da;
 }
 
 .bg-slider {
@@ -242,7 +247,6 @@ section {
     font-size: 18px;
     line-height: 22px;
     padding: 0 15px 10px 15px;
-    text-align: justify;
 }
 
 .bg-plasti_window {
@@ -260,10 +264,42 @@ section {
     display: none;
 }
 
+.col-md-6 ul {
+    list-style: none;
+}
+
+.footer-list {
+    padding-left: 0;
+}
+.footer-left {
+    text-align: end;
+}
+.footer-copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1440px) {
+    .rubberBand2 {
+        height: 800px;
+    }
+}
 @media screen and (max-width: 1200px) {
     .about_product_title_3 {
         font-size: 17px;
     }
+    .bg-slider-title-block {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .box6-title {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -275,6 +311,10 @@ section {
         width: 100%;
     }
 
+    .box6-title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
     .box_title {
         margin-top: 40px;
     }
@@ -282,16 +322,109 @@ section {
     .box6-title span {
         font-size: 21px;
     }
-
+    .box_descr {
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .price_order {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    .btn_csu {
+        font-size: 17px !important;
+        padding: 8px 38px !important;
+    }
     .d-block {
         display: block;
+    }
+    .container-car-img {
+        display: flex;
+        justify-content: center;
+    }
+    .image-feedback {
+        width: 44%;
+    }
+    .footer-text{
+        display: flex;
+        justify-content: space-between;
+    }
+    .title_workP {
+        padding-bottom: 15px;
     }
 }
 
 @media (max-width: 959px) {
-    .bg-slider-title-block {
-        display: flex;
-        justify-content: center;
+
+}
+@media (max-width: 768px) {
+    .bg-slider-title {
+        color: #fff;
+        font-size: 45px;
+        margin-bottom: 41px;
+    }
+    .about_product_title {
+        font-size: 26px;
+    }
+    .phone a {
+        font-size: 20px;
+    }
+    .rubberBand2 {
+        height: 500px;
+        font-size: 50px;
+    }
+    .fire-bg h2 {
+        font-size: 50px;
+        padding-top: 90px;
+    }
+}
+@media (max-width: 576px) {
+    .image-feedback {
+        width: 60%;
+    }
+    .phone a {
+        font-size: 17px;
+    }
+    .bg-slider-title {
+        font-size: 35px;
+        margin-bottom: 28px;
+    }
+    .about_product_title {
+        font-size: 22px;
+    }
+    .about_product_sub_title {
+        font-size: 20px;
+    }
+    .fire-bg h2 {
+        font-size: 35px;
+        padding-top: 95px;
+    }
+    .box6-title {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .footer-left {
+        text-align: center;
+    }
+    .footer-right {
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    .fire-bg h2 {
+        font-size: 26px;
+        padding-top: 105px;
+    }
+    .bg-slider-title {
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+    .fonts_def_1 {
+        font-size: 18px;
+    }
+    .about_product_sub_title {
+        padding-bottom: 10px;
     }
 }
 
