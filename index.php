@@ -49,7 +49,7 @@
     <div class="container">
         <div class="row wow bounceInUp">
             <div class="col-md-12">
-                <h1 class="bg-slider-title text-center fonts_def_1">Заправка кондиционера</h1>
+                <h1 class="bg-slider-title text-center fonts_def_1 title-konder">Заправка кондиционера</h1>
             </div>
             <div class="col-lg-8">
                 <div class="picture_slider text-center ">
@@ -168,7 +168,7 @@
                 </div>
                 <div class="box8-author fonts_def_1 text-center">Александр Вагулис</div>
                 <div class="box8-work text-center">Renault laguna 2</div>
-                <p class="box_li fonts_def_1">Приехал на заправку кондиционера на Renault Laguna 2.
+                <p class="box_li fonts_def_1 text-coment">Приехал на заправку кондиционера на Renault Laguna 2.
                     Но в процессе заправки обнаружилась проблема, на месте нашли проблему( был забит осушитель)на следующий день поменяли осушитель и клапан распылитель. Заправили кондиционер (все холодит) . Сделали скидку на заправку.
                     Плюсом является низкая стоимость, качество, клиентооринтированность и советы по эксплуатации кондиционера.
                 </p>
@@ -222,7 +222,7 @@
         <div class='row footer-text'>
               <div class="col-md-6 footer-right">
                   <ul class="footer-list">
-                      <li><strong>Телефон: </strong><a href="mailto:bymaximus17@gmail.com" title="Телефон">+375 25 525 9000</a></li>
+                      <li><strong>Телефон: </strong><a href="tel:+375255259000">+375 25 525 9000</a></li>
                       <li><strong>E-mail: </strong> <a href="mailto:bymaximus17@gmail.com" title="e-mail">example17@gmail.com</a></li>
                       <li>"ИП Бондарчик В.И."</li>
                   </ul>
@@ -236,7 +236,6 @@
                   </ul>
               </div>
         </div>
-        <strong class="footer-copy">&copy;2020-2021</strong>
     </div>
 </footer>
 <script type="text/javascript">
