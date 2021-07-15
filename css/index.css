@@ -60,11 +60,13 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none !important;
     font-weight: 600;
     font-size: 25px;
+    transition: all ease .3s;
 }
 
 .phone svg {
     width: 20px;
     color: #ff6600;
+    transition: all ease .3s;
 }
 
 
@@ -74,6 +76,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .phone:hover svg {
+    color: #4d78da;
+    text-decoration: none !important;
+}
+
+.phone:hover a {
     color: #4d78da;
     text-decoration: none !important;
 }
@@ -277,7 +284,17 @@ section {
 .footer-left {
     text-align: end;
 }
-
+.map {
+    width: 100%;
+    height: 600px;
+}
+.phone-link, .mail-link {
+    transition: all ease .3s;
+}
+.phone-link:hover, .mail-link:hover {
+    color: #ff6600;
+    text-decoration: none !important;
+}
 
 @media screen and (max-width: 1440px) {
     .rubberBand2 {
@@ -375,6 +392,13 @@ section {
         font-size: 50px;
         padding-top: 90px;
     }
+    .map {
+        width: 100%;
+        height: 400px;
+    }
+    .col-xs-9 svg {
+        width: 15px;
+    }
 }
 @media (max-width: 576px) {
     .image-feedback {
@@ -422,6 +446,7 @@ section {
         text-align: justify;
     }
 }
+
 @media (max-width: 480px) {
     .footer-left {
         text-align: center;
@@ -432,10 +457,21 @@ section {
     .image-feedback {
         width: 70%;
     }
+    .map {
+        width: 100%;
+        height: 400px;
+    }
 }
 @media (max-width: 400px) {
     .image-feedback {
         width: 80%;
+    }
+    .map {
+        width: 100%;
+        height: 300px;
+    }
+    .col-xs-9 svg {
+        display: none;
     }
 }
 @media (max-width: 320px) {
@@ -461,6 +497,10 @@ section {
     }
     .box8-author {
         padding: 0px 25px 0 25px;
+    }
+    .map {
+        width: 100%;
+        height: 200px;
     }
 }
 
