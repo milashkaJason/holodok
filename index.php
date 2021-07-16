@@ -272,7 +272,12 @@
 <script src="//code-ya.jivosite.com/widget/SMk03YbNoX" async></script>
 <script src="libs/wow_js/index.min.js"></script>
 <script>
-    new WOW().init();
+    wow = new WOW(
+        {
+            mobile: false,
+        }
+    )
+    wow.init();
 </script>
 </body>
 </html>
