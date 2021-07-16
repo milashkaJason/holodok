@@ -5,11 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="description" content>
     <meta name="keywords" content>
-    <link rel="shortcut icon" href="images/favicon0.ico" type="image/x-icon">
+<!--    <link rel="shortcut icon" href="images/favicon0.ico" type="image/x-icon">-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.min.css">
     <script src="https://api-maps.yandex.ru/2.1/?apikey=c31d9a3b-860a-41f0-b8fb-708a953e14c3&lang=ru_RU" type="text/javascript"></script>
     <link rel="stylesheet" href="libs/wow_js/index.min.css">
 
@@ -164,7 +164,7 @@
             </div>
             <div data-wow-delay="0.2s" class="col-md-4 wow bounceInRight about_auto">
                 <div class="container-car-img">
-                    <img class="image-feedback" src="image/car3.png" alt="авто">
+                    <img class="image-feedback" src="image/car3.webp" alt="авто">
                 </div>
                 <div class="box8-author fonts_def_1 text-center">Александр Вагулис</div>
                 <div class="box8-work text-center">Renault laguna 2</div>
@@ -176,7 +176,7 @@
 
             <div data-wow-delay="0.2s" class="col-md-4 wow bounceInUp about_auto">
                 <div class="container-car-img">
-                    <img class="image-feedback" src="image/car3.png" alt="авто">
+                    <img class="image-feedback" src="image/car3.webp" alt="авто">
                 </div>
                 <div class="box8-author fonts_def_1 text-center">Александр Вагулис</div>
                 <div class="box8-work text-center">Renault laguna 2</div>
@@ -188,7 +188,7 @@
 
             <div data-wow-delay="0.2s" class="col-md-4 wow bounceInLeft about_auto">
                 <div class="container-car-img">
-                    <img class="image-feedback" src="image/car3.png" alt="авто">
+                    <img class="image-feedback" src="image/car3.webp" alt="авто">
                 </div>
                 <div class="box8-author fonts_def_1 text-center">Александр Вагулис</div>
                 <div class="box8-work text-center">Renault laguna 2</div>
