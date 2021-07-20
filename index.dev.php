@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="description" content>
     <meta name="keywords" content>
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
 <!--    <link rel="shortcut icon" href="images/favicon0.ico" type="image/x-icon">-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +28,7 @@
             </div>
             <div class="col-sm-6 col-xs-3">
                 <h4 class="text-left ask_title fonts_def_1 font_size_25 d-block d-none">
-                    <img width="100" src="image/logo-holodok.png" alt="">
+                    <img width="150" src="image/logo-holodok.png" alt="">
                 </h4>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-9 text-right">

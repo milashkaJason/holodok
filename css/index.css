@@ -24,8 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     box-shadow: 4px 8px 57px -7px #565656;
     text-transform: uppercase;
     color: #4c4c4c;
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .phone a {
-    color: #ff6600;
+    color: #fff;
     text-decoration: none !important;
     font-weight: 600;
     font-size: 25px;
@@ -108,7 +108,7 @@ section {
     padding-top: 125px;
 }
 .fire-bg h2 span {
-    color: #0076da;
+    color: #0085b8;
 }
 
 .bg-slider {
@@ -242,7 +242,7 @@ section {
 }
 
 .box8-author {
-    color: #0076da;
+    color: #1D71A0;
     font-size: 24px;
     line-height: 24px;
     padding: 25px 25px 0 25px;
@@ -290,6 +290,7 @@ section {
 }
 .phone-link, .mail-link {
     transition: all ease .3s;
+    color: #1D71A0;
 }
 .phone-link:hover, .mail-link:hover {
     color: #ff6600;
