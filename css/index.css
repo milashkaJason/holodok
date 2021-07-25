@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .phone a {
     color: #fff;
     text-decoration: none !important;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 25px;
     transition: all ease .3s;
 }
@@ -319,7 +319,7 @@ section {
     z-index: 2;
     text-transform: uppercase;
 }
-.fire-bg-sub-title span {
+.fire-bg-sub-title {
     color: #0085b8;
 }
 .picture-img {
@@ -420,9 +420,9 @@ section {
     .about_product_title {
         font-size: 26px;
     }
-    .phone a {
-        font-size: 20px;
-    }
+    /*.phone a {*/
+    /*    font-size: 20px;*/
+    /*}*/
     /*.rubberBand2 {*/
     /*    height: 500px;*/
     /*    font-size: 50px;*/
@@ -452,9 +452,9 @@ section {
     .image-feedback {
         width: 60%;
     }
-    .phone a {
-        font-size: 17px;
-    }
+    /*.phone a {*/
+    /*    font-size: 17px;*/
+    /*}*/
     .bg-slider-title {
         font-size: 35px;
         margin-bottom: 28px;
@@ -518,6 +518,9 @@ section {
     .fire-img {
         top: -60px;
     }
+    .phone svg {
+        display: none;
+    }
 }
 @media (max-width: 400px) {
     .image-feedback {
@@ -541,6 +544,17 @@ section {
     }
     .fire-img {
         top: -35px;
+    }
+}
+@media (max-width: 380px) {
+    .phone a {
+        font-size: 17px;
+    }
+    .ask_title img {
+        width: 100px;
+    }
+    .phone svg {
+        display: block;
     }
 }
 @media (max-width: 320px) {
