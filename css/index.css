@@ -99,12 +99,12 @@ section {
 }
 
 .rubberBand2 {
-    width: 100%;
-    height: 1100px;
-    background: url("/image/fire.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    /*width: 100%;*/
+    /*height: 1100px;*/
+    /*background: url("/image/fire.jpg");*/
+    /*background-size: contain;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
 }
 
 .fire-bg h2 {
@@ -112,13 +112,15 @@ section {
     color: #ff6600;
     text-align: center;
     padding-top: 125px;
+    position: relative;
+    z-index: 2;
 }
 .fire-bg h2 span {
     color: #0085b8;
 }
 
 .bg-slider {
-    padding: 133px 0 60px 0;
+    padding: 0 0 60px 0;
     background: #000;
 }
 
@@ -302,10 +304,34 @@ section {
     color: #ff6600;
     text-decoration: none !important;
 }
+.fire-img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: -252px;
+}
+.fire-bg-sub-title {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    top: -290px;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+}
+.fire-bg-sub-title span {
+    color: #0085b8;
+}
+.picture-img {
+    width: 100%;
+}
 
-@media screen and (max-width: 1440px) {
-    .rubberBand2 {
-        height: 800px;
+@media screen and (max-width: 1330px) {
+    .fire-img {
+        top: -210px;
+    }
+    .fire-bg-sub-title {
+        top: -216px;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -374,6 +400,12 @@ section {
     .title_workP {
         padding-bottom: 15px;
     }
+    .fire-img {
+        top: -140px;
+    }
+    .fire-bg-sub-title {
+        top: -140px;
+    }
 }
 
 @media (max-width: 959px) {
@@ -391,13 +423,16 @@ section {
     .phone a {
         font-size: 20px;
     }
-    .rubberBand2 {
-        height: 500px;
-        font-size: 50px;
-    }
+    /*.rubberBand2 {*/
+    /*    height: 500px;*/
+    /*    font-size: 50px;*/
+    /*}*/
     .fire-bg h2 {
         font-size: 50px;
         padding-top: 90px;
+    }
+    .fire-bg-sub-title {
+        font-size: 50px;
     }
     .map {
         width: 100%;
@@ -405,6 +440,12 @@ section {
     }
     .col-xs-9 svg {
         width: 15px;
+    }
+    .fire-img {
+        top: -90px;
+    }
+    .fire-bg-sub-title {
+        top: -90px;
     }
 }
 @media (max-width: 576px) {
@@ -427,6 +468,9 @@ section {
     .fire-bg h2 {
         font-size: 35px;
         padding-top: 95px;
+    }
+    .fire-bg-sub-title {
+        font-size: 35px;
     }
     .box6-title {
         margin-top: 20px;
@@ -468,6 +512,12 @@ section {
         width: 100%;
         height: 400px;
     }
+    .fire-bg-sub-title {
+        top: -60px;
+    }
+    .fire-img {
+        top: -60px;
+    }
 }
 @media (max-width: 400px) {
     .image-feedback {
@@ -479,6 +529,18 @@ section {
     }
     .col-xs-9 svg {
         display: none;
+    }
+    .fire-bg h2 {
+        font-size: 30px;
+    }
+    .fire-bg-sub-title {
+        font-size: 30px;
+    }
+    .fire-bg-sub-title {
+        top: -35px;
+    }
+    .fire-img {
+        top: -35px;
     }
 }
 @media (max-width: 320px) {
