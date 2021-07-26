@@ -325,6 +325,12 @@ section {
 .picture-img {
     width: 100%;
 }
+.pavki-1 {
+    height: 140px;
+}
+.pavki-2 {
+    height: 100px;
+}
 
 @media screen and (max-width: 1330px) {
     .fire-img {
@@ -352,7 +358,7 @@ section {
 
 @media screen and (max-width: 992px) {
     .bg-slider {
-        padding: 33px 0 53px 0;
+        padding: 10px 0 53px 0;
     }
 
     .picture_slider img {
@@ -540,22 +546,22 @@ section {
         font-size: 30px;
     }
     .fire-bg-sub-title {
-        top: -35px;
+        top: -55px;
     }
     .fire-img {
-        top: -35px;
+        top: -55px;
     }
 }
 @media (max-width: 380px) {
     .phone a {
         font-size: 17px;
     }
-    .ask_title img {
-        width: 100px;
-    }
-    .phone svg {
-        display: block;
-    }
+    /*.ask_title img {*/
+    /*    width: 100px;*/
+    /*}*/
+    /*.phone svg {*/
+    /*    display: block;*/
+    /*}*/
 }
 @media (max-width: 320px) {
     .fire-bg h2 {
@@ -579,7 +585,7 @@ section {
         width: 100%;
     }
     .box8-author {
-        padding: 0px 25px 0 25px;
+        padding: 0 25px 0 25px;
     }
     .map {
         width: 100%;
