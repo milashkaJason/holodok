@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .bg-header {
     padding-top: 5px;
     padding-bottom: 5px;
-    box-shadow: 4px 8px 57px -7px #565656;
+    box-shadow: 4px 6px 7px -4px #565656;
     text-transform: uppercase;
     color: #4c4c4c;
     position: fixed;
@@ -123,11 +123,23 @@ section {
     padding: 0 0 60px 0;
     background: #000;
 }
+.bg-slider.white_theme {
+    background: #fff;
+}
 
 .bg-slider-title {
     color: #fff;
     font-size: 54px;
     margin-bottom: 75px;
+}
+.bg-slider-title.white_theme {
+    color: #000;
+}
+.fonts_def_1.white_theme {
+ color: #000;
+}
+.box_descr.white_theme {
+    color: #000;
 }
 
 .about_product_title {
@@ -169,6 +181,10 @@ section {
     line-height: 36px;
     color: #707070;
     text-transform: uppercase;
+}
+.box6-title.white_theme span {
+    background: #fff;
+    color: #000;
 }
 
 .box_title {
@@ -233,6 +249,9 @@ section {
     color: #ff6600;
     text-transform: uppercase
 }
+.title_workP.white_theme  {
+    color: #ff6600;
+}
 
 .descr_workp {
     font-size: 19px;
@@ -267,6 +286,9 @@ section {
 .bg-plasti_window {
     padding-bottom: 45px;
 }
+.bg-plasti_window.white_theme {
+    background: #fff;
+}
 
 .bg-footer {
     padding: 17px 0 33px 0;
@@ -288,6 +310,15 @@ section {
 }
 .footer-list li {
     color: #fff;
+}
+.footer-list.white_theme  li {
+    color: #000;
+}
+.bg-footer.white_theme {
+    background: #fff;
+}
+.grafic.white_theme {
+    color: #000;
 }
 .footer-left {
     text-align: end;
@@ -325,12 +356,12 @@ section {
 .picture-img {
     width: 100%;
 }
-.pavki-1 {
-    height: 140px;
-}
-.pavki-2 {
-    height: 100px;
-}
+/*.pavki-1 {*/
+/*    height: 140px;*/
+/*}*/
+/*.pavki-2 {*/
+/*    height: 100px;*/
+/*}*/
 
 @media screen and (max-width: 1330px) {
     .fire-img {
