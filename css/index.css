@@ -96,6 +96,9 @@ section {
 }
 
 .fire-bg {
+    height: calc(100vh - 83px);
+    margin-top: 83px;
+    position: relative;
 }
 
 .rubberBand2 {
@@ -111,7 +114,7 @@ section {
     font-size: 60px;
     color: #ff6600;
     text-align: center;
-    padding-top: 125px;
+    padding-top: 80px;
     position: relative;
     z-index: 2;
 }
@@ -123,8 +126,9 @@ section {
     padding: 0 0 60px 0;
     background: #000;
 }
-.bg-slider.white_theme {
-    background: #fff;
+
+.zapravka {
+    background: #44494c;
 }
 
 .bg-slider-title {
@@ -136,12 +140,17 @@ section {
     color: #000;
 }
 .fonts_def_1.white_theme {
- color: #000;
+ color: #1D71A0;
 }
 .box_descr.white_theme {
     color: #000;
 }
-
+.title-konder-1 {
+    color: #ff6600;
+}
+.title-konder-2 {
+    color: #1D71A0;
+}
 .about_product_title {
     text-transform: uppercase;
     color: #ff6600;
@@ -183,7 +192,7 @@ section {
     text-transform: uppercase;
 }
 .box6-title.white_theme span {
-    background: #fff;
+    background: #44494c;
     color: #000;
 }
 
@@ -202,6 +211,19 @@ section {
 
 .img_width_240px {
     max-height: 140px;
+}
+
+.car-name {
+    color: #666464;
+}
+.kakie-uslugi-title span{
+    color: #707070!important;
+}
+.img-container {
+    max-height: 310px;
+}
+.white_bg {
+    background: #fff;
 }
 
 .price_order {
@@ -345,10 +367,13 @@ section {
     font-size: 60px;
     color: #fff;
     text-align: center;
-    top: -290px;
-    position: relative;
+    position: absolute;
     z-index: 2;
+    bottom: 10px;
     text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
 }
 .fire-bg-sub-title {
     color: #0085b8;
@@ -367,9 +392,9 @@ section {
     .fire-img {
         top: -210px;
     }
-    .fire-bg-sub-title {
-        top: -216px;
-    }
+    /*.fire-bg-sub-title {*/
+    /*    top: -216px;*/
+    /*}*/
 }
 @media screen and (max-width: 1200px) {
     .about_product_title_3 {
@@ -386,8 +411,16 @@ section {
     }
 
 }
+@media screen and (max-height: 1116px){
+    .fire-bg h2 {
+        padding-top: 20px;
+    }
+}
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991.99px) {
+    .img-container {
+        max-height: 193px;
+    }
     .bg-slider {
         padding: 10px 0 53px 0;
     }
@@ -440,15 +473,33 @@ section {
     .fire-img {
         top: -140px;
     }
-    .fire-bg-sub-title {
-        top: -140px;
-    }
+    /*.fire-bg-sub-title {*/
+    /*    top: -140px;*/
+    /*}*/
 }
 
 @media (max-width: 959px) {
 
 }
+@media (max-height: 814px) {
+    .fire-bg h2 {
+        padding-top: 34px;
+    }
+}
+@media (max-height: 768px) {
+    .fire-bg h2 {
+        padding-top: 28px;
+    }
+}
+@media (max-height: 762px) {
+    .fire-bg h2 {
+        padding-top: 7px;
+    }
+}
 @media (max-width: 768px) {
+    .fire-bg {
+        height: 100%;
+    }
     .bg-slider-title {
         color: #fff;
         font-size: 45px;
@@ -481,9 +532,9 @@ section {
     .fire-img {
         top: -90px;
     }
-    .fire-bg-sub-title {
-        top: -90px;
-    }
+    /*.fire-bg-sub-title {*/
+    /*    top: -90px;*/
+    /*}*/
 }
 @media (max-width: 576px) {
     .image-feedback {
@@ -549,9 +600,9 @@ section {
         width: 100%;
         height: 400px;
     }
-    .fire-bg-sub-title {
-        top: -60px;
-    }
+    /*.fire-bg-sub-title {*/
+    /*    top: -60px;*/
+    /*}*/
     .fire-img {
         top: -60px;
     }
@@ -576,9 +627,9 @@ section {
     .fire-bg-sub-title {
         font-size: 30px;
     }
-    .fire-bg-sub-title {
-        top: -55px;
-    }
+    /*.fire-bg-sub-title {*/
+    /*    top: -55px;*/
+    /*}*/
     .fire-img {
         top: -55px;
     }
@@ -623,4 +674,34 @@ section {
         height: 200px;
     }
 }
+.custom-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.margin-auto {
+    margin: 0 auto;
+}
+.fake-checkbox {
+    opacity: 0;
+}
+
+.about_auto {
+    display: none;
+}
+.about_auto:nth-child(2) {
+    display: block!important;
+}
+.about_auto:nth-child(3) {
+    display: block!important;
+}
+.about_auto:nth-child(4) {
+    display: block!important;
+}
+section {
+    overflow: hidden;
+}
+
+.center-custom {
+    margin: 0 auto;
+}
