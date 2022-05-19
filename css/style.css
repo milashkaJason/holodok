@@ -110,7 +110,7 @@ button:focus {
 body {
     font-family: 'MyRiadPro', sans-serif;
     font-weight: 400;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*main style start*/
