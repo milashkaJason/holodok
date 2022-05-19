@@ -466,6 +466,12 @@ body {
     }
 }
 
+@media screen and (max-width: 1760px) {
+    .main-block {
+        background-size: contain;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .refueling-block .list {
         padding-top: 20px;
@@ -529,6 +535,10 @@ body {
 
     .main-block.block {
         padding: 20px 0;
+    }
+
+    .map-block #map {
+        height: 230px;
     }
 
 }
