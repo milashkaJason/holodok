@@ -110,6 +110,7 @@ button:focus {
 body {
     font-family: 'MyRiadPro', sans-serif;
     font-weight: 400;
+    overflow-y: hidden;
 }
 
 /*main style start*/
@@ -284,7 +285,7 @@ body {
     background-image: url("../images/main-bacground.webp");
     background-repeat: no-repeat;
     background-position: 0 -155px;
-    background-size: contain;
+    background-size: cover;
     background-color: #000;
     display: flex;
     flex-direction: column;
