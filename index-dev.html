@@ -1,4 +1,3 @@
-<?php if (substr_count($_SERVER[‘HTTP_ACCEPT_ENCODING’], ‘gzip’)) ob_start(“ob_gzhandler”); else ob_start(); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -120,7 +119,7 @@
                             <p class="sub-title">Мы приехжаем к вам или вы приезжаете к нам.</p>
                             <picture>
                                 <source srcset="images/zapravka.webp">
-                                <img src="images/zapravka.png" alt="">
+                                <img loading="lazy" src="images/zapravka.png" alt="">
                             </picture>
                             <div class="d-flex flex-column">
                                 <a class="btn" href="tel:+375255259000">
@@ -153,7 +152,7 @@
                             <p class="sub-title">Диагностика и проверка системы на работоспособность </p>
                                 <source media="(max-width: 360px)" srcset="images/remont-360.webp">
                                 <source srcset="images/remont.webp">
-                                <img src="images/remont.jpg" alt="">
+                                <img loading="lazy" src="images/remont.jpg" alt="">
                             </picture>
                             <div class="d-flex flex-column">
                                 <a class="btn" href="tel:+375255259000">
@@ -187,7 +186,7 @@
                             <picture>
                                 <source media="(max-width: 360px)" srcset="images/kluch-360.webp">
                                 <source srcset="images/kluch.webp">
-                                <img src="images/kluch.jpg" alt="">
+                                <img loading="lazy" src="images/kluch.jpg" alt="">
                             </picture>
                             <div class="d-flex flex-column">
                                 <a class="btn" href="tel:+375255259000">
@@ -223,7 +222,7 @@
             </div>
             <p class="sub-title">Наш адрес: переулок Стебенева, 10</p>
             <div class="container">
-                <div class="ymap-container">
+                <div class="ymap-container lazy">
                     <div class="loader loader-default"></div>
                     <div id="map"></div>
                 </div><!-- .ymap-container -->
@@ -256,6 +255,6 @@
             </div>
         </footer>
     </div>
-    <script src="index.js" defer></script>
+    <script src="index.min.js" defer></script>
 </body>
 </html>

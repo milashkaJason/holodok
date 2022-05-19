@@ -412,6 +412,10 @@ body {
     background-size: cover;
     box-shadow: 0 0 2em  0 rgba(0,0,0,.2);
 }
+.map-block .ymap-container.lazy {
+    background-image: none;
+    background-color: #F1F1FA;
+}
 
 /* Блок, в котором появится Яндекс.Карта */
 .map-block #map {
