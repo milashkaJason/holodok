@@ -440,6 +440,10 @@ body {
     list-style: none;
 }
 
+.footer ul strong {
+    padding: 3px 0;
+}
+
 .footer ul li {
     min-height: 15px;
 }
