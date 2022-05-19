@@ -362,6 +362,7 @@ body {
 
 .price-list-block .card img {
     max-height: 140px;
+    width: auto;
 }
 
 .price-list-block .sub-title {
